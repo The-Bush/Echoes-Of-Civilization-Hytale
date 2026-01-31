@@ -1,0 +1,11 @@
+benchCategories.guns = Guns
+items.Blunderbuss_recipe.name = Encyclopedia Firearms Chapter 1: Blunderbuss
+items.Blunderbuss_recipe.description = A faded tome written in the ancient tongue of Crucible.\nTeaches the <item is="EOC_Weapon_Gun_Blunderbuss"/> recipe.
+weapons.guns.Blunderbuss.name = Blunderbuss
+weapons.guns.Blunderbuss.description = A firearm that fires a single large projectile.
+items.Blunderbuss_Shot.name = Blunderbuss Shot
+items.Blunderbuss_Shot.description = A special type of ammunition designed for the Blunderbuss.
+items.Glider.name = Glider
+items.Glider.description = A simple glider that allows for short bursts of flight.
+items.Glider_recipe.name = Encyclopedia Flight Chapter 1: Glider
+items.Glider_recipe.description = A faded tome written in the ancient tongue of Crucible.\nTeaches the <item is="EOC_Glider"/> recipe.

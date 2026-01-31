@@ -1,0 +1,21 @@
+{
+  "Type": "StatsCondition",
+  "Costs": {
+    "Mana": 0
+  },
+  "$Comment": "Prepare Delay",
+  "RunTime": 0,
+  "Next": {
+    "Type": "Simple",
+    "Next": "EOC_Gun_Shoot_Cost"
+  },
+  "Failed": {
+    "Type": "Replace",
+    "DefaultValue": {
+      "Interactions": [
+        "Gun_Shoot_Fail"
+      ]
+    },
+    "Var": "Gun_Shoot_Fail"
+  }
+}

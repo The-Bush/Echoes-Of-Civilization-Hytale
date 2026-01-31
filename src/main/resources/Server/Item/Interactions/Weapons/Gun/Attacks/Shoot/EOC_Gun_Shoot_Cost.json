@@ -1,0 +1,9 @@
+{
+  "Type": "ModifyInventory",
+  "ItemToRemove": {
+    "Id": "EOC_Blunderbuss_Shot",
+    "Quantity": 1
+  },
+  "Next": "EOC_Gun_Shoot",
+  "Failed": "Gun_Shoot_Fail"
+}

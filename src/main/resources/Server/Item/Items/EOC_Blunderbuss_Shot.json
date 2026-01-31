@@ -1,0 +1,39 @@
+{
+  "Icon": "Icons/ItemsGenerated/Utility_Bag_Seed.png",
+  "MaxStack": 100,
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Shadoweave"
+      },
+      {
+        "ItemId": "Ingredient_Powder_Boom",
+        "Quantity": 1
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "EOC_Blunderbuss_Shot",
+        "Quantity": 5
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Weapon_Bench",
+        "Categories": [
+          "Weapon_Gun"
+        ],
+        "RequiredTierLevel": 2
+      }
+    ],
+    "KnowledgeRequired": true
+  },
+  "TranslationProperties": {
+    "Name": "eoc.items.Blunderbuss_Shot.name",
+    "Description": "eoc.items.Blunderbuss_Shot.description"
+  }
+}

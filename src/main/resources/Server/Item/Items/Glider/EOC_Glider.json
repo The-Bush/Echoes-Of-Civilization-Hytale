@@ -1,0 +1,37 @@
+{
+  "TranslationProperties": {
+    "Name": "eoc.items.Glider.name",
+    "Description": "eoc.items.Glider.description"
+  },
+  "Parent": "Template_Glider",
+  "ItemLevel": 50,
+  "Quality": "Rare",
+  "Glider": {
+    "FallSpeedMultiplier": 50,
+    "HorizontalSpeedMultiplier": 0.6,
+    "TerminalVelocity": -4,
+    "Speed": 10
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Leather_Heavy",
+        "Quantity": 40
+      },
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 10
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Categories": [
+          "Workbench_Tinkering"
+        ],
+        "RequiredTierLevel": 2
+      }
+    ],
+    "KnowledgeRequired": true
+  }
+}
