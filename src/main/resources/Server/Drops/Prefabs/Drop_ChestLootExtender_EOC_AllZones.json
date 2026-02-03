@@ -15,11 +15,45 @@
         }
       },
       {
-        "Type": "Single",
-        "Item": {
-          "ItemId": "EOC_Recipe_Blunderbuss"
-        },
-        "Weight": 10
+        "Type": "Choice",
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "EOC_Recipe_Blunderbuss"
+            },
+            "Weight": 33
+          },
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "EOC_Recipe_Glider"
+            },
+            "Weight": 33
+          },
+          {
+            "Type": "Single",
+            "Weight": 33,
+            "Item": {
+              "ItemId": "EOC_Recipe_Timepiece"
+            }
+          },
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "EOC_Recipe_Plow"
+            },
+            "Weight": 33
+          },
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "EOC_Recipe_Tree_Saw"
+            },
+            "Weight": 33
+          }
+        ],
+        "Weight": 15
       }
     ]
   }

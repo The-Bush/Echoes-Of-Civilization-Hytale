@@ -1,6 +1,8 @@
 package branly.echoesofciv.plugin;
 
+import branly.echoesofciv.plugin.interactions.CheckTimeInteraction;
 import com.hypixel.hytale.logger.HytaleLogger;
+import com.hypixel.hytale.server.core.modules.interaction.interaction.config.Interaction;
 import com.hypixel.hytale.server.core.plugin.JavaPlugin;
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
 
@@ -22,6 +24,7 @@ public class EchoesOfCivilizationPlugin extends JavaPlugin {
     @Override
     protected void setup() {
         LOGGER.atInfo().log("Setting up plugin " + this.getName());
-        this.getCommandRegistry().registerCommand(new ExampleCommand(this.getName(), this.getManifest().getVersion().toString()));
+        this.getCodecRegistry(Interaction.CODEC).register("EOC_CheckTime", CheckTimeInteraction.class, CheckTimeInteraction.Codec);
+
     }
 }

@@ -1,32 +1,17 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Tool_Repair_Kit_Iron.name",
-    "Description": "server.items.Tool_Repair_Kit_Iron.description"
+    "Name": "eoc.items.Timepiece.name",
+    "Description": "eoc.items.Timepiece.description"
   },
-  "Icon": "Icons/ItemsGenerated/Tool_Repair_Kit_Iron.png",
-  "Parent": "Tool_Repair_Kit_Crude",
+  "Icon": "Icons/ItemsGenerated/EOC_Tool_Timepiece.png",
   "ItemLevel": 1,
-  "Model": "Items/Tools/Repair_Kit/Repair_Kit_Iron.blockymodel",
-  "Texture": "Items/Tools/Repair_Kit/Repair_Kit_Iron_Texture.png",
+  "Model": "Items/Tools/EOC_Timepiece.blockymodel",
+  "Texture": "Items/Tools/EOC_Timepiece_Texture.png",
   "Interactions": {
     "Primary": {
       "Interactions": [
         {
-          "Type": "OpenCustomUI",
-          "Page": {
-            "Id": "ConfigInstanceBlock"
-          }
-        }
-      ]
-    },
-    "Secondary": {
-      "Interactions": [
-        {
-          "Type": "OpenCustomUI",
-          "Page": {
-            "Id": "ItemRepair",
-            "RepairPenalty": 0.1
-          }
+          "Type": "EOC_CheckTime"
         }
       ]
     }
@@ -35,16 +20,16 @@
     "TimeSeconds": 1,
     "Input": [
       {
-        "ItemId": "Ingredient_Fabric_Scrap_Linen",
+        "ItemId": "Ingredient_Crystal_White",
         "Quantity": 2
       },
       {
-        "ItemId": "Ingredient_Bar_Iron",
-        "Quantity": 1
+        "ItemId": "Ingredient_Bar_Silver",
+        "Quantity": 2
       },
       {
-        "ItemId": "Ingredient_Leather_Light",
-        "Quantity": 1
+        "ItemId": "Ingredient_Bar_Gold",
+        "Quantity": 2
       }
     ],
     "OutputQuantity": 1,
@@ -52,11 +37,51 @@
       {
         "Type": "Crafting",
         "Categories": [
-          "Workbench_Tools"
+          "Workbench_Tinkering"
         ],
-        "Id": "Workbench"
+        "Id": "Workbench",
+        "RequiredTierLevel": 2
       }
     ]
   },
-  "Quality": "Common"
+  "Quality": "Uncommon",
+  "PlayerAnimationsId": "Item",
+  "Scale": 1,
+  "IconProperties": {
+    "Scale": 1.3,
+    "Rotation": [
+      14,
+      202,
+      19
+    ],
+    "Translation": [
+      -2,
+      -7
+    ]
+  },
+  "BlockType": {
+    "CustomModel": "Items/Tools/EOC_Timepiece.blockymodel",
+    "DrawType": "Model",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Tools/EOC_Timepiece_Texture.png"
+      }
+    ],
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ],
+      "Horizontal": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "HitboxType": "Food_Medium"
+  },
+  "Utility": {
+    "Compatible": true
+  }
 }

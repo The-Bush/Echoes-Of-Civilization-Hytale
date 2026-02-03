@@ -1,0 +1,54 @@
+{
+  "TranslationProperties": {
+    "Name": "eoc.items.Plow_recipe.name",
+    "Description": "eoc.items.Plow_recipe.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Recipe_Book_Magic_Air.png",
+  "Quality": "Rare",
+  "Categories": [
+    "Items.Recipes"
+  ],
+  "PlayerAnimationsId": "Item",
+  "Model": "Items/Consumables/Recipes/Recipe.blockymodel",
+  "Texture": "Items/Consumables/Recipes/Recipe_Texture.png",
+  "IconProperties": {
+    "Scale": 0.76,
+    "Rotation": [
+      135,
+      135,
+      0
+    ],
+    "Translation": [
+      -1,
+      5
+    ]
+  },
+  "Consumable": true,
+  "Interactions": {
+    "Primary": {
+      "Interactions": [
+        {
+          "Type": "LearnRecipe",
+          "ItemId": "EOC_Tool_Plow"
+        }
+      ]
+    },
+    "Secondary": {
+      "Interactions": [
+        {
+          "Type": "LearnRecipe",
+          "ItemId": "EOC_Tool_Plow"
+        }
+      ]
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Recipe"
+    ],
+    "Family": [
+      "Food"
+    ]
+  },
+  "MaxStack": 10
+}

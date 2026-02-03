@@ -11,7 +11,7 @@
   "PlayerAnimationsId": "Rifle",
   "Interactions": {
     "Primary": "EOC_Gun_Shoot_Flintlock_Charging",
-    "Secondary": "Gun_Attack"
+    "Secondary": "EOC_Gun_Attack"
   },
   "InteractionVars": {
     "Gun_Swing_Left_Effect": {
@@ -42,7 +42,7 @@
     "Gun_Swing_Left_Damage": {
       "Interactions": [
         {
-          "Parent": "Gun_Swing_Left_Damage",
+          "Parent": "EOC_Gun_Swing_Left_Damage",
           "DamageCalculator": {
             "Type": "Dps",
             "BaseDamage": {

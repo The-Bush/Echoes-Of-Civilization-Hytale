@@ -1,7 +1,7 @@
 {
     "Group": "Branly",
     "Name": "Echoes-of-Civilization",
-    "Version": "0.0.2",
+    "Version": "1.0.0",
     "Description": "Uncover the secrets of Orbis's lost ancient civilization. Discover ancient knowledge, forgotten weapons, and ingenious technologies that once shaped the world.",
     "Authors": [
         {
@@ -11,7 +11,7 @@
     "Website": "",
     "ServerVersion": "*",
     "Dependencies": {
-        "randomlyfish:ChestLootExtender": "*"
+        
     },
     "OptionalDependencies": {
         

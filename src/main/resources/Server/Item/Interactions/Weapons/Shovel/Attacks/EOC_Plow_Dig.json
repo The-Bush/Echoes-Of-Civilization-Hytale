@@ -1,0 +1,63 @@
+{
+  "Type": "Simple",
+  "Effects": {
+    "ItemAnimationId": "Till"
+  },
+  "$Comment": "Prepare Delay",
+  "RunTime": 0.083,
+  "Next": {
+    "Type": "Selector",
+    "RunTime": 0.1,
+    "Selector": {
+      "Id": "Horizontal",
+      "Direction": "ToLeft",
+      "TestLineOfSight": false,
+      "ExtendTop": 1,
+      "ExtendBottom": 1,
+      "StartDistance": 0.1,
+      "EndDistance": 3.5,
+      "Length": 30,
+      "RollOffset": 180,
+      "YawStartOffset": -15
+    },
+    "HitBlock": {
+      "Interactions": [
+        {
+          "Type": "ChangeBlock",
+          "RunTime": 0.233,
+          "RequireNotBroken": true,
+          "Changes": {
+            "Soil_Dirt": "Soil_Dirt_Tilled",
+            "Soil_Dirt_Burnt": "Soil_Dirt_Tilled",
+            "Soil_Dirt_Cold": "Soil_Dirt_Tilled",
+            "Soil_Dirt_Dry": "Soil_Dirt_Tilled",
+            "Soil_Grass": "Soil_Dirt_Tilled",
+            "Soil_Grass_Burnt": "Soil_Dirt_Tilled",
+            "Soil_Grass_Cold": "Soil_Dirt_Tilled",
+            "Soil_Grass_Deep": "Soil_Dirt_Tilled",
+            "Soil_Grass_Dry": "Soil_Dirt_Tilled",
+            "Soil_Grass_Full": "Soil_Dirt_Tilled",
+            "Soil_Grass_Sunny": "Soil_Dirt_Tilled",
+            "Soil_Leaves": "Soil_Dirt_Tilled",
+            "Soil_Mud": "Soil_Dirt_Tilled",
+            "Soil_Mud_Dry": "Soil_Dirt_Tilled",
+            "Soil_Needles": "Soil_Dirt_Tilled",
+            "Soil_Pathway": "Soil_Dirt_Tilled"
+          },
+          "Effects": {
+            "LocalSoundEventId": "SFX_Hoe_T1_Till"
+          }
+        }
+      ]
+    },
+    "Next": {
+      "Type": "ModifyInventory",
+      "AdjustHeldItemDurability": -0.5,
+      "NotifyOnBreak": false,
+      "Next": {
+        "Type": "Simple",
+        "RunTime": 0.5
+      }
+    }
+  }
+}

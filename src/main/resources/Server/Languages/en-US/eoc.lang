@@ -1,11 +1,23 @@
 benchCategories.guns = Guns
-items.Blunderbuss_recipe.name = Encyclopedia Firearms Chapter 1: Blunderbuss
+items.Blunderbuss_recipe.name = Encyclopedia Firearms: Musket
 items.Blunderbuss_recipe.description = A faded tome written in the ancient tongue of Crucible.\nTeaches the <item is="EOC_Weapon_Gun_Blunderbuss"/> recipe.
-weapons.guns.Blunderbuss.name = Blunderbuss
+weapons.guns.Blunderbuss.name = Musket
 weapons.guns.Blunderbuss.description = A firearm that fires a single large projectile.
-items.Blunderbuss_Shot.name = Blunderbuss Shot
-items.Blunderbuss_Shot.description = A special type of ammunition designed for the Blunderbuss.
+items.Blunderbuss_Shot.name = Musket Shot
+items.Blunderbuss_Shot.description = A special type of ammunition designed for the Musket.
 items.Glider.name = Glider
 items.Glider.description = A simple glider that allows for short bursts of flight.
-items.Glider_recipe.name = Encyclopedia Flight Chapter 1: Glider
+items.Glider_recipe.name = Encyclopedia Flight: Glider
 items.Glider_recipe.description = A faded tome written in the ancient tongue of Crucible.\nTeaches the <item is="EOC_Glider"/> recipe.
+items.Timepiece.name = Timepiece
+items.Timepiece.description = A small, intricate device that displays the current date and time.
+items.Timepiece_recipe.name = Encyclopedia Mechanics: Timepiece
+items.Timepiece_recipe.description = A faded tome written in the ancient tongue of Crucible.\nTeaches the <item is="EOC_Tool_Timepiece"/> recipe.
+items.Plow.name = Plow
+items.Plow.description = Use to till dirt or grass in a 3x3 area.
+items.Plow_recipe.name = Encyclopedia Agriculture: Plow
+items.Plow_recipe.description = A faded tome written in the ancient tongue of Crucible.\nTeaches the <item is="EOC_Tool_Plow"/> recipe.
+items.Saw.name = Tree Saw
+items.Saw.description = A saw designed for quickly cutting down large trees with thick trunks. Cuts a 3x3 area of wood.
+items.Saw_recipe.name = Encyclopedia Agriculture: Tree Saw
+items.Saw_recipe.description = A faded tome written in the ancient tongue of Crucible.\nTeaches the <item is="EOC_Tool_Tree_Saw"/> recipe.
